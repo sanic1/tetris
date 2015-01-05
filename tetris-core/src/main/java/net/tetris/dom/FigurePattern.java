@@ -4,6 +4,7 @@ public class FigurePattern {
     private String[] rows;
     private int centerX;
     private int centerY;
+    private int someFlag;
 
     public FigurePattern(int centerX, int centerY, String... rows) {
         this.rows = rows;
@@ -21,5 +22,9 @@ public class FigurePattern {
 
     public int getCenterY() {
         return centerY;
+    }
+
+    public int getSomeFlag() {
+        return someFlag;
     }
 }
